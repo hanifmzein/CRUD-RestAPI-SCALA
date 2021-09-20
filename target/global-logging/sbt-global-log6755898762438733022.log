@@ -1,0 +1,401 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(2e869528-4bc1-4c4a-98ed-40444736682c), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:12: Compilation error[Whitespace expected][0m
+[0m[[0m[31merror[0m] [0m[0mGET[0m
+[0m[[0m[31merror[0m] [0m[0m   ^[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mplayRoutes[0m) @7l4646a20: Compilation error[Whitespace expected] in /Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:12[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getPatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getPatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11:1: Cannot use a method returning Unit as a Handler for requests[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getPatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11:1: Cannot use a method returning Unit as a Handler for requests[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getPatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11:1: Cannot use a method returning play.api.mvc.Result as a Handler for requests[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getPatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getPatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getPatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources and 1 Java source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getPatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getPatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/app/controllers/HomeController.scala:43:7: Cannot write an instance of Class[T] to HTTP response. Try to define a Writeable[Class[T]][0m
+[0m[[0m[31merror[0m] [0m[0m    Ok(x.getClass)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/app/controllers/HomeController.scala:44:66: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (String, Int) => String[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, Int) => ?[0m
+[0m[[0m[31merror[0m] [0m[0m    val parser = int("patient_id") ~ int("patient_name") map (to(display _))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getPatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getPatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getPatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getPatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources and 1 Java source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getPatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getPatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:13: Compilation error[Whitespace expected][0m
+[0m[[0m[31merror[0m] [0m[0mPOST    /patient[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mplayRoutes[0m) @7l4d21m4j: Compilation error[Whitespace expected] in /Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:13[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11: Compilation error[Using different overloaded methods is not allowed. If you are using a single method in combination with default parameters, make sure you declare them all explicitly.][0m
+[0m[[0m[31merror[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mplayRoutes[0m) @7l4d27fib: Compilation error[Using different overloaded methods is not allowed. If you are using a single method in combination with default parameters, make sure you declare them all explicitly.] in /Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 9 Scala sources and 1 Java source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getPatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:13:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method updatePatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mPOST    /patient                    controllers.HomeController.updatePatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:14:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method deletePatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mPOST    /patient/delete/            controllers.HomeController.deletePatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /nama                       controllers.HomeController.listNama[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:11:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getPatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:13:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method updatePatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mPOST    /patient                    controllers.HomeController.updatePatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:14:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method deletePatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mPOST    /patient/delete/            controllers.HomeController.deletePatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m8 warnings found[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:crud-restapi-scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
