@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/hanif/Programs/Scala/crud-restapi-scala/target/scala-2.13/crud-restapi-scala_2.13-1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hanif/Programs/Scala/crud-restapi-scala/conf/logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	messages[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hanif/Programs/Scala/crud-restapi-scala/conf/messages[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hanif/Programs/Scala/crud-restapi-scala/conf/application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	routes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	database/ScalaApplicationDatabase.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hanif/Programs/Scala/crud-restapi-scala/app/database/ScalaApplicationDatabase.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models/PatientDAO.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hanif/Programs/Scala/crud-restapi-scala/app/models/PatientDAO.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/HomeController.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hanif/Programs/Scala/crud-restapi-scala/app/controllers/HomeController.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
