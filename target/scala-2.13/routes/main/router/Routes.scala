@@ -42,6 +42,7 @@ class Routes(
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """nama""", """controllers.HomeController.listNama"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """map""", """controllers.HomeController.returnMap"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """patient""", """controllers.HomeController.getPatient"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """patient/page""", """controllers.HomeController.jmlPagePatient"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """patient/page/""" + "$" + """page<[^/]+>""", """controllers.HomeController.pagePatient(page:Int)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """patient/""" + "$" + """id<[^/]+>""", """controllers.HomeController.getItemPatient(id:Int)"""),
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """patient""", """controllers.HomeController.addPatient"""),
@@ -128,10 +129,28 @@ class Routes(
   )
 
   // @LINE:12
-  private[this] lazy val controllers_HomeController_pagePatient4_route = Route("GET",
+  private[this] lazy val controllers_HomeController_jmlPagePatient4_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("patient/page")))
+  )
+  private[this] lazy val controllers_HomeController_jmlPagePatient4_invoker = createInvoker(
+    HomeController_0.jmlPagePatient,
+    play.api.routing.HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.HomeController",
+      "jmlPagePatient",
+      Nil,
+      "GET",
+      this.prefix + """patient/page""",
+      """""",
+      Seq()
+    )
+  )
+
+  // @LINE:13
+  private[this] lazy val controllers_HomeController_pagePatient5_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("patient/page/"), DynamicPart("page", """[^/]+""",true)))
   )
-  private[this] lazy val controllers_HomeController_pagePatient4_invoker = createInvoker(
+  private[this] lazy val controllers_HomeController_pagePatient5_invoker = createInvoker(
     HomeController_0.pagePatient(fakeValue[Int]),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -145,11 +164,11 @@ class Routes(
     )
   )
 
-  // @LINE:13
-  private[this] lazy val controllers_HomeController_getItemPatient5_route = Route("GET",
+  // @LINE:14
+  private[this] lazy val controllers_HomeController_getItemPatient6_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("patient/"), DynamicPart("id", """[^/]+""",true)))
   )
-  private[this] lazy val controllers_HomeController_getItemPatient5_invoker = createInvoker(
+  private[this] lazy val controllers_HomeController_getItemPatient6_invoker = createInvoker(
     HomeController_0.getItemPatient(fakeValue[Int]),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -163,11 +182,11 @@ class Routes(
     )
   )
 
-  // @LINE:14
-  private[this] lazy val controllers_HomeController_addPatient6_route = Route("POST",
+  // @LINE:15
+  private[this] lazy val controllers_HomeController_addPatient7_route = Route("POST",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("patient")))
   )
-  private[this] lazy val controllers_HomeController_addPatient6_invoker = createInvoker(
+  private[this] lazy val controllers_HomeController_addPatient7_invoker = createInvoker(
     HomeController_0.addPatient,
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -181,11 +200,11 @@ class Routes(
     )
   )
 
-  // @LINE:15
-  private[this] lazy val controllers_HomeController_updatePatient7_route = Route("POST",
+  // @LINE:16
+  private[this] lazy val controllers_HomeController_updatePatient8_route = Route("POST",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("patient/update")))
   )
-  private[this] lazy val controllers_HomeController_updatePatient7_invoker = createInvoker(
+  private[this] lazy val controllers_HomeController_updatePatient8_invoker = createInvoker(
     HomeController_0.updatePatient,
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -199,11 +218,11 @@ class Routes(
     )
   )
 
-  // @LINE:16
-  private[this] lazy val controllers_HomeController_deletePatient8_route = Route("POST",
+  // @LINE:17
+  private[this] lazy val controllers_HomeController_deletePatient9_route = Route("POST",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("patient/delete")))
   )
-  private[this] lazy val controllers_HomeController_deletePatient8_invoker = createInvoker(
+  private[this] lazy val controllers_HomeController_deletePatient9_invoker = createInvoker(
     HomeController_0.deletePatient,
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -218,10 +237,10 @@ class Routes(
   )
 
   // @LINE:20
-  private[this] lazy val controllers_Assets_versioned9_route = Route("GET",
+  private[this] lazy val controllers_Assets_versioned10_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("assets/"), DynamicPart("file", """.+""",false)))
   )
-  private[this] lazy val controllers_Assets_versioned9_invoker = createInvoker(
+  private[this] lazy val controllers_Assets_versioned10_invoker = createInvoker(
     Assets_1.versioned(fakeValue[String], fakeValue[Asset]),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -263,39 +282,45 @@ class Routes(
       }
   
     // @LINE:12
-    case controllers_HomeController_pagePatient4_route(params@_) =>
-      call(params.fromPath[Int]("page", None)) { (page) =>
-        controllers_HomeController_pagePatient4_invoker.call(HomeController_0.pagePatient(page))
+    case controllers_HomeController_jmlPagePatient4_route(params@_) =>
+      call { 
+        controllers_HomeController_jmlPagePatient4_invoker.call(HomeController_0.jmlPagePatient)
       }
   
     // @LINE:13
-    case controllers_HomeController_getItemPatient5_route(params@_) =>
-      call(params.fromPath[Int]("id", None)) { (id) =>
-        controllers_HomeController_getItemPatient5_invoker.call(HomeController_0.getItemPatient(id))
+    case controllers_HomeController_pagePatient5_route(params@_) =>
+      call(params.fromPath[Int]("page", None)) { (page) =>
+        controllers_HomeController_pagePatient5_invoker.call(HomeController_0.pagePatient(page))
       }
   
     // @LINE:14
-    case controllers_HomeController_addPatient6_route(params@_) =>
-      call { 
-        controllers_HomeController_addPatient6_invoker.call(HomeController_0.addPatient)
+    case controllers_HomeController_getItemPatient6_route(params@_) =>
+      call(params.fromPath[Int]("id", None)) { (id) =>
+        controllers_HomeController_getItemPatient6_invoker.call(HomeController_0.getItemPatient(id))
       }
   
     // @LINE:15
-    case controllers_HomeController_updatePatient7_route(params@_) =>
+    case controllers_HomeController_addPatient7_route(params@_) =>
       call { 
-        controllers_HomeController_updatePatient7_invoker.call(HomeController_0.updatePatient)
+        controllers_HomeController_addPatient7_invoker.call(HomeController_0.addPatient)
       }
   
     // @LINE:16
-    case controllers_HomeController_deletePatient8_route(params@_) =>
+    case controllers_HomeController_updatePatient8_route(params@_) =>
       call { 
-        controllers_HomeController_deletePatient8_invoker.call(HomeController_0.deletePatient)
+        controllers_HomeController_updatePatient8_invoker.call(HomeController_0.updatePatient)
+      }
+  
+    // @LINE:17
+    case controllers_HomeController_deletePatient9_route(params@_) =>
+      call { 
+        controllers_HomeController_deletePatient9_invoker.call(HomeController_0.deletePatient)
       }
   
     // @LINE:20
-    case controllers_Assets_versioned9_route(params@_) =>
+    case controllers_Assets_versioned10_route(params@_) =>
       call(Param[String]("path", Right("/public")), params.fromPath[Asset]("file", None)) { (path, file) =>
-        controllers_Assets_versioned9_invoker.call(Assets_1.versioned(path, file))
+        controllers_Assets_versioned10_invoker.call(Assets_1.versioned(path, file))
       }
   }
 }

@@ -6,15 +6,19 @@
 [0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
 [0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
 [0m[[0m[33mwarn[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:14:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method addPatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:12:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method jmlPagePatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /patient/page               controllers.HomeController.jmlPagePatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:15:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method addPatient,[0m
 [0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
 [0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
 [0m[[0m[33mwarn[0m] [0m[0mPOST    /patient                    controllers.HomeController.addPatient[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:15:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method updatePatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:16:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method updatePatient,[0m
 [0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
 [0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
 [0m[[0m[33mwarn[0m] [0m[0mPOST    /patient/update             controllers.HomeController.updatePatient[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:16:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method deletePatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:17:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method deletePatient,[0m
 [0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
 [0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
 [0m[[0m[33mwarn[0m] [0m[0mPOST    /patient/delete             controllers.HomeController.deletePatient[0m
@@ -26,19 +30,23 @@
 [0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
 [0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
 [0m[[0m[33mwarn[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:14:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method addPatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:12:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method jmlPagePatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /patient/page               controllers.HomeController.jmlPagePatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:15:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method addPatient,[0m
 [0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
 [0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
 [0m[[0m[33mwarn[0m] [0m[0mPOST    /patient                    controllers.HomeController.addPatient[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:15:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method updatePatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:16:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method updatePatient,[0m
 [0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
 [0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
 [0m[[0m[33mwarn[0m] [0m[0mPOST    /patient/update             controllers.HomeController.updatePatient[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:16:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method deletePatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:17:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method deletePatient,[0m
 [0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
 [0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
 [0m[[0m[33mwarn[0m] [0m[0mPOST    /patient/delete             controllers.HomeController.deletePatient[0m
-[0m[[0m[33mwarn[0m] [0m[0m10 warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0m12 warnings found[0m
 [0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:8:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method listNama,[0m
 [0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
 [0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
@@ -47,15 +55,19 @@
 [0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
 [0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
 [0m[[0m[33mwarn[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:14:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method addPatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:12:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method jmlPagePatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /patient/page               controllers.HomeController.jmlPagePatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:15:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method addPatient,[0m
 [0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
 [0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
 [0m[[0m[33mwarn[0m] [0m[0mPOST    /patient                    controllers.HomeController.addPatient[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:15:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method updatePatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:16:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method updatePatient,[0m
 [0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
 [0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
 [0m[[0m[33mwarn[0m] [0m[0mPOST    /patient/update             controllers.HomeController.updatePatient[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:16:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method deletePatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:17:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method deletePatient,[0m
 [0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
 [0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
 [0m[[0m[33mwarn[0m] [0m[0mPOST    /patient/delete             controllers.HomeController.deletePatient[0m
@@ -67,16 +79,20 @@
 [0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
 [0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
 [0m[[0m[33mwarn[0m] [0m[0mGET     /patient                    controllers.HomeController.getPatient[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:14:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method addPatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:12:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method jmlPagePatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /patient/page               controllers.HomeController.jmlPagePatient[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:15:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method addPatient,[0m
 [0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
 [0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
 [0m[[0m[33mwarn[0m] [0m[0mPOST    /patient                    controllers.HomeController.addPatient[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:15:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method updatePatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:16:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method updatePatient,[0m
 [0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
 [0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
 [0m[[0m[33mwarn[0m] [0m[0mPOST    /patient/update             controllers.HomeController.updatePatient[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:16:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method deletePatient,[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/hanif/Programs/Scala/crud-restapi-scala/conf/routes:17:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method deletePatient,[0m
 [0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
 [0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
 [0m[[0m[33mwarn[0m] [0m[0mPOST    /patient/delete             controllers.HomeController.deletePatient[0m
-[0m[[0m[33mwarn[0m] [0m[0m10 warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0m12 warnings found[0m

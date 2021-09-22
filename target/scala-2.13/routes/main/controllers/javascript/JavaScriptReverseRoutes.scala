@@ -27,12 +27,22 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:16
+    // @LINE:17
     def deletePatient: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.deletePatient",
       """
         function() {
           return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "patient/delete"})
+        }
+      """
+    )
+  
+    // @LINE:12
+    def jmlPagePatient: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.HomeController.jmlPagePatient",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "patient/page"})
         }
       """
     )
@@ -47,7 +57,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:13
+    // @LINE:14
     def getItemPatient: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.getItemPatient",
       """
@@ -67,7 +77,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:14
+    // @LINE:15
     def addPatient: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.addPatient",
       """
@@ -87,7 +97,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:15
+    // @LINE:16
     def updatePatient: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.updatePatient",
       """
@@ -97,7 +107,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:12
+    // @LINE:13
     def pagePatient: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.pagePatient",
       """

@@ -1,21 +1,14 @@
 package controllers
 
-import akka.http.scaladsl.model.DateTime
-import models.{Patient, PatientDAO}
-import play.api.libs.json.{JsArray, JsNull, JsNumber, JsObject, JsString, JsValue, Json, Reads}
-
-import javax.inject._
-import play.api.mvc._
 import anorm._
-import anorm.SqlParser.{flatten, get, int, scalar, str, to}
+import models.{Patient, PatientDAO, CityDAO, City}
 import play.api.db.DBApi
-import database.ScalaApplicationDatabase
-import play.api.db.Database
-import play.api.libs.concurrent.CustomExecutionContext
+import play.api.libs.json._
+import play.api.mvc._
 
 import java.text.SimpleDateFormat
 import java.util.Date
-import scala.concurrent.Future
+import javax.inject._
 import scala.language.postfixOps
 
 /**
@@ -25,13 +18,15 @@ import scala.language.postfixOps
 @Singleton
 class HomeController @Inject()(dbApi: DBApi,
                                patientDAO:PatientDAO,
+                               cityDAO: CityDAO,
                                val controllerComponents: ControllerComponents)
                     extends BaseController {
 
   private val db = dbApi.database("default")
 
-  implicit val patienFormat = Json.format[Patient]
-  val simple: RowParser[Patient] = Macro.namedParser[Patient]
+
+//  import cityDAO.cityFormat
+  import patientDAO.patienFormat
 
   /**
    * Create an Action to render an HTML page.
@@ -43,6 +38,11 @@ class HomeController @Inject()(dbApi: DBApi,
 
   def index() = Action { implicit request: Request[AnyContent] =>
     Ok(views.html.index())
+  }
+
+  def jmlPagePatient() = Action {
+    val jml = (patientDAO.getJumlah())
+    Ok(jml.toString)
   }
 
   def pagePatient(page:Int) = Action {
@@ -75,7 +75,7 @@ class HomeController @Inject()(dbApi: DBApi,
       val birth:Date = new SimpleDateFormat("yyyy-mm-dd").parse((param \ "date_birth").as[String])
       val address:String = (param \ "address").as[String]
 
-      val patient = Patient(0, city_id, name, gender, birth, address)
+      val patient = Patient(0, city_id, name, gender, birth, address, None)
 
       val result = patientDAO.addData(patient)
 
@@ -94,7 +94,7 @@ class HomeController @Inject()(dbApi: DBApi,
       val birth:Date = new SimpleDateFormat("yyyy-mm-dd").parse((param \ "date_birth").as[String])
       val address:String = (param \ "address").as[String]
 
-      val patient = Patient(id, city_id, name, gender, birth, address)
+      val patient = Patient(id, city_id, name, gender, birth, address, None)
 
       val result = patientDAO.updateData(patient)
 

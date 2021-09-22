@@ -1,6 +1,9 @@
 package models
 
-import anorm.{Macro, RowParser, SQL}
+import scala.language.postfixOps
+
+import anorm._
+import anorm.SqlParser.{ get, scalar }
 import play.api.db.DBApi
 import play.api.libs.json.Json
 import play.db._
@@ -15,19 +18,42 @@ case class Patient (
                      patient_name:String,
                      gender:String,
                      date_birth:Date,
-                     address:String
+                     address:String,
+                     city: Option[City]
                    )
 
 @Singleton
-class PatientDAO @Inject()(dbApi: DBApi) {
+class PatientDAO @Inject()(dbApi: DBApi, cityDAO: CityDAO) {
 
+  import cityDAO.cityFormat
+  implicit val patienFormat = Json.format[Patient]
   private val db = dbApi.database("default")
-  val simple: RowParser[Patient] = Macro.namedParser[Patient]
+
+  val jumlah = 3
+
+  val simpleWithCity: RowParser[Patient] = {
+        get[Int]("patient_id") ~
+        get[Int]("city_id") ~
+        get[String]("patient_name") ~
+        get[String]("gender") ~
+        get[Date]("date_birth") ~
+        get[String]("address") ~
+         cityDAO.simple.? map{
+          case patient_id~city_id~patient_name~gender~date_birth~address~city =>
+                Patient(patient_id, city_id, patient_name, gender, date_birth, address, city)
+    }
+  }
+
+  def getJumlah() = {
+    val jml = (getData().length / jumlah) + (getData().length % jumlah)
+    jml
+  }
 
   def getData(): List[Patient] = {
     db.withConnection { implicit c =>
-      val result : List[Patient] = SQL("SELECT * FROM patient")
-        .as(simple.*)
+      val result : List[Patient] = SQL("SELECT p.*,c.city_name FROM patient p join city c on p.city_id = c.city_id")
+        .as(simpleWithCity.*)
+
       result
     }
   }
@@ -35,18 +61,17 @@ class PatientDAO @Inject()(dbApi: DBApi) {
   def getItemData(id:Int) = {
     db.withConnection { implicit c =>
       val result = SQL("SELECT * FROM patient WHERE patient_id =" + id)
-        .as(simple.singleOpt)
+        .as(simpleWithCity.singleOpt)
 
       result
     }
   }
 
   def pageData(page:Int): List[Patient] = {
-    val jumlah = 3
     val awal = (page * jumlah ) - jumlah
     db.withConnection{ implicit c=>
-      val result : List[Patient] = SQL(s"SELECT * FROM patient LIMIT $awal,$jumlah;")
-        .as(simple.*)
+      val result : List[Patient] = SQL(s"SELECT p.*,c.city_name FROM patient p join city c on p.city_id = c.city_id LIMIT $awal,$jumlah")
+        .as(simpleWithCity.*)
       result
     }
   }

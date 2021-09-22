@@ -22,10 +22,16 @@ package controllers {
       Call("GET", _prefix + { _defaultPrefix } + "map")
     }
   
-    // @LINE:16
+    // @LINE:17
     def deletePatient: Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "patient/delete")
+    }
+  
+    // @LINE:12
+    def jmlPagePatient: Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "patient/page")
     }
   
     // @LINE:11
@@ -34,7 +40,7 @@ package controllers {
       Call("GET", _prefix + { _defaultPrefix } + "patient")
     }
   
-    // @LINE:13
+    // @LINE:14
     def getItemPatient(id:Int): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "patient/" + play.core.routing.dynamicString(implicitly[play.api.mvc.PathBindable[Int]].unbind("id", id)))
@@ -46,7 +52,7 @@ package controllers {
       Call("GET", _prefix + { _defaultPrefix } + "nama")
     }
   
-    // @LINE:14
+    // @LINE:15
     def addPatient: Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "patient")
@@ -58,13 +64,13 @@ package controllers {
       Call("GET", _prefix)
     }
   
-    // @LINE:15
+    // @LINE:16
     def updatePatient: Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "patient/update")
     }
   
-    // @LINE:12
+    // @LINE:13
     def pagePatient(page:Int): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "patient/page/" + play.core.routing.dynamicString(implicitly[play.api.mvc.PathBindable[Int]].unbind("page", page)))
